@@ -1,6 +1,7 @@
 import io
 import json
 import os
+import pathlib
 import time
 from typing import Optional
 
@@ -10,7 +11,8 @@ from docx import Document as DocxDocument
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import FileResponse, StreamingResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 load_dotenv()
@@ -22,7 +24,7 @@ app = FastAPI(title="LLM Arena Backend")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -256,3 +258,19 @@ async def stream_response(req: StreamRequest):
 @app.get("/api/health")
 async def health():
     return {"status": "ok"}
+
+
+# ── Static file serving (production / HF Spaces) ─────────────────────────────
+
+STATIC_DIR = pathlib.Path(__file__).resolve().parent / "static"
+
+if STATIC_DIR.is_dir():
+    app.mount("/assets", StaticFiles(directory=STATIC_DIR / "assets"), name="assets")
+
+    @app.get("/{full_path:path}")
+    async def serve_spa(full_path: str):
+        """Serve the React SPA for any non-API route."""
+        file_path = STATIC_DIR / full_path
+        if file_path.is_file():
+            return FileResponse(file_path)
+        return FileResponse(STATIC_DIR / "index.html")

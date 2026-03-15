@@ -1,3 +1,12 @@
+---
+title: LLM Arena
+emoji: ⚔️
+colorFrom: indigo
+colorTo: purple
+sdk: docker
+app_port: 7860
+---
+
 # LLM Arena
 
 Side-by-side LLM comparison app powered by [Concentrate AI](https://concentrate.ai). Pick any two models from 70+ providers, send the same prompt, and watch both responses stream in real-time with latency, token, and cost stats.
