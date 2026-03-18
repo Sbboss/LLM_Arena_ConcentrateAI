@@ -12,7 +12,7 @@ Side-by-side LLM evaluation tool built on the [Concentrate AI](https://concentra
 
 ## Demo
 
-[![Watch the demo](assets/thumbnail.png)](https://github.com/user-attachments/assets/ef5b1827-6359-4fab-82d4-20671d89e0ff)
+[![Watch the demo](assets/thumbnail.png)](https://github.com/user-attachments/assets/a75378bf-4b46-4006-bdaf-32023dc40817)
 
 ## Features
 
