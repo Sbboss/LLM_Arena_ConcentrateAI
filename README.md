@@ -4,6 +4,10 @@ sdk: docker
 app_port: 7860
 ---
 
+
+https://github.com/user-attachments/assets/ef5b1827-6359-4fab-82d4-20671d89e0ff
+
+
 # LLM Arena
 
 Side-by-side LLM evaluation tool built on the [Concentrate AI](https://concentrate.ai) unified model API. Compare any two models from 70+ options across OpenAI, Anthropic, Google, xAI, Mistral, and more -- same prompt, real-time streaming, quantitative metrics.
@@ -12,8 +16,7 @@ Side-by-side LLM evaluation tool built on the [Concentrate AI](https://concentra
 
 ## Demo
 
-<video src="https://raw.githubusercontent.com/Sbboss/LLM_Arena_ConcentrateAI/releases/download/v1.0/LLM_Arena_demo.mp4" controls width="100%"></video>
-<!-- [![Watch the video]](https://raw.githubusercontent.com/Sbboss/LLM_Arena_ConcentrateAI/releases/download/v1.0/LLM_Arena_demo.mp4) -->
+https://github.com/user-attachments/assets/ef5b1827-6359-4fab-82d4-20671d89e0ff
 
 
 ## Features
