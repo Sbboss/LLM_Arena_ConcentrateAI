@@ -12,7 +12,7 @@ Side-by-side LLM evaluation tool built on the [Concentrate AI](https://concentra
 
 ## Demo
 
-<video src="https://github.com/Sbboss/LLM_Arena_ConcentrateAI/releases/download/v1.0/LLM_Arena_demo.mp4" controls width="100%"></video>
+<iframe src="https://github.com/Sbboss/LLM_Arena_ConcentrateAI/releases/download/v1.0/LLM_Arena_demo.mp4" controls width="100%"></iframe>
 
 ## Features
 
