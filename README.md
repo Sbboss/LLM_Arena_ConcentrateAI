@@ -1,12 +1,14 @@
----
-title: LLM Arena
-sdk: docker
-app_port: 7860
----
+<h1 align="center">LLM Arena</h1>
 
-# LLM Arena
+<p align="center">
+  <img src="https://img.shields.io/badge/backend-Python%20%7C%20FastAPI-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/frontend-React%20%7C%20Vite-61DAFB?logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/styling-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/deploy-Docker%20%7C%20Hugging%20Face%20Spaces-2496ED?logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM%20gateway-Concentrate%20AI-000000" />
+</p>
 
-Side-by-side LLM evaluation tool built on the [Concentrate AI](https://concentrate.ai) unified model API. Compare any two models from 70+ options across OpenAI, Anthropic, Google, xAI, Mistral, and more -- same prompt, real-time streaming, quantitative metrics.
+Side-by-side LLM evaluation tool built on the [Concentrate AI](https://concentrate.ai) unified model API. Compare any two models from 70+ options across OpenAI, Anthropic, Google, xAI, Mistral, and more — same prompt, real-time streaming, quantitative metrics.
 
 **Live demo:** [huggingface.co/spaces/Sbboss/LLM_Arena_ConcentrateAI](https://huggingface.co/spaces/Sbboss/LLM_Arena_ConcentrateAI)
 
