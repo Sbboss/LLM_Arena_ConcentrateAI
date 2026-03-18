@@ -10,6 +10,10 @@ Side-by-side LLM evaluation tool built on the [Concentrate AI](https://concentra
 
 **Live demo:** [huggingface.co/spaces/Sbboss/LLM_Arena_ConcentrateAI](https://huggingface.co/spaces/Sbboss/LLM_Arena_ConcentrateAI)
 
+## Demo
+
+<video src="https://github.com/Sbboss/LLM_Arena_ConcentrateAI/raw/main/LLM_Arena_demo.mp4" controls width="100%"></video>
+
 ## Features
 
 - **Side-by-side streaming** -- both models respond simultaneously via Server-Sent Events
