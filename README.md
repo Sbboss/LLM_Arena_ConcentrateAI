@@ -52,11 +52,11 @@ npm install
 npm run dev
 ```
 
-The frontend runs at `http://localhost:5173` and proxies `/api/*` requests to the backend at `localhost:8000`.
+The frontend runs at `http://ip:5173` and proxies `/api/*` requests to the backend at `ip:8000`.
 
 ## Usage
 
-1. Open `http://localhost:5173`
+1. Open `http://ip:5173`
 2. Pick two models from the dropdowns (e.g. `openai/gpt-5.2` vs `anthropic/claude-sonnet-4`)
 3. (Optional) Upload a PDF/DOCX/TXT document as context
 4. (Optional) Adjust temperature, max tokens, or top-p
